@@ -1,91 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
     <title>Formulário</title>
-    <meta name="Formulário" content="Pagina de Formulário do Site Kayanoplex Cinemas">
-    <link rel="styleshhet" href="style.css">
-    <style>
-        header {
-            background-color: #222; 
-            color: white;
-            padding: 5px 20px;
-            display: flex;
-            justify-content: space-between; 
-            align-items: center;
-        }
-        .logo img {
-            max-height: 80px;
-            width: auto;
-        }  
-        header nav h1 {
-            font-size: 1.5em;
-            margin: 0;
-            font-family: Sans-serif;
-            font-weight: bold;
-        }
-        form {
-            background: white;
-            border: 2px solid #e67e22;
-            border-radius: 10px;
-            padding: 25px 40px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            
-        }
-        main {
-            font-family: sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            margin: 0;
-            background-color: #f4f4f9;
-            
-        }
-
-        select {
-            width: 100%;
-            padding: 8px;
-            border: 1px solid #e67e22;
-            border-radius: 5px;
-            margin-bottom: 15px;
-            font-family: Sans-serif;
-        }
-
-        label {
-            font-weight: bold;
-            display: block;
-            margin-bottom: 5px;
-            font-family: Sans-serif;
-            
-        }
-        .centralizar-links {
-            text-align: center;
-        }
-
-        .botao {
-            display: inline-block;
-            text-align: center;
-            box-sizing: border-box;
-            padding: 12px 20px;
-            font-size: 1rem; 
-            background-color: #e67e22;
-            color: white;
-            border: none;
-            cursor: pointer;
-            border-radius: 8px;
-            text-decoration: none;
-            font-weight: bold;
-            margin-top: 15px;
-            font-family: Sans-serif;
-        }
-
-        .botao:hover {
-            background-color: #cf711f;
-        }
-        footer{}
-    </style>
+    <meta name = "Formulário" content = "Pagina de Formulário do Site Kayanoplex Cinemas">
+    <link rel = "stylesheet" href = "style.css">
+    <script></script>
 </head>
 <body>
     <header>
@@ -98,31 +19,34 @@
     </header>
     <main>
         <form>
-            <label for="local">Selecione o local:</label>
-            <select id="local" name="local">
+            <label for = "local">Selecione o local:</label>
+            <select id = "local" name = "local">
                 <option>West Shopping - Campo Grande</option>
             </select>
-
             <label for="dia">Selecione o dia:</label>
             <select id="dia" name="dia">
                 <option>06/11/2025</option>
             </select>
-
-            <label for="horario">Selecione o horário:</label>
-            <select id="horario" name="horario">
+            <label for = "horario">Selecione o horário:</label>
+            <select id = "horario" name = "horario">
                 <option>13h</option>
                 <option>15h</option>
                 <option>17h</option>
             </select>
-            <label for="sala">Selecione a sala:</label>
-            <select id="sala" name="sala">
+            <label for = "sala">Selecione a sala:</label>
+            <select id = "sala" name = "sala">
                 <option>Sala 01</option>
             </select>
-            <div class="centralizar-links">
-                <a href="https://github.com/AfonsoTech/Projeto-Web.git" class="botao">VER CADEIRAS</a>
+            <div class = "centralizar-links">
+                <a href = "https://github.com/AfonsoTech/Projeto-Web.git" class = "botao">VER CADEIRAS</a>
             </div>
         </form>
-    <footer></footer>
     </main>
+    <footer>
+        <p>&copy; 2025 KAYANOPLEX CINEMAS. Todos os direitos reservados.</p>
+        <div class = "links-rodapé">
+            <a href = "https://github.com/AfonsoTech/Projeto-Web.git" target="_blank">GitHub</a>
+        </div>
+    </footer>
 </body>
 </html>

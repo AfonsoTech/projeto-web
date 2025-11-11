@@ -1,0 +1,102 @@
+header {
+            background-color: #222;
+            color: white;
+            padding: 5px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo img {
+            max-height: 80px;
+            width: auto;
+        }
+        header nav h1 {
+            font-size: 1.5em;
+            margin: 0;
+            font-family: Sans-serif;
+            font-weight: bold;
+        }
+        main {
+            font-family: sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f4f4f9;
+
+        }
+        form {
+            background: white;
+            border: 2px solid #e67e22;
+            border-radius: 10px;
+            padding: 25px 40px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        label {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 5px;
+            font-family: Sans-serif;
+
+        }
+        select {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #e67e22;
+            border-radius: 5px;
+            margin-bottom: 15px;
+            font-family: Sans-serif;
+        }
+        .centralizar-links {
+            text-align: center;
+        }
+        .botao {
+            display: inline-block;
+            text-align: center;
+            box-sizing: border-box;
+            padding: 12px 20px;
+            font-size: 1rem;
+            background-color: #e67e22;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 15px;
+            font-family: Sans-serif;
+        }
+        .botao:hover {
+            background-color: #cf711f;
+        }
+        footer {
+            background-color: #333;
+            color: #ccc;
+            box-sizing: border-box;
+            padding: 35px 50px;
+            font-size: 0.9em;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .links-rodapé {
+    display: flex;
+    gap: 20px;
+}
+.links-rodapé a {
+    color: #aaa;
+    text-decoration: none;
+    transition: color 0.2s;
+    font-family: Sans-serif;
+    font-weight: bold;
+}
+.links-rodapé a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+footer p {
+    margin: 0;
+    font-family: Sans-serif;
+    font-weight: bold;
+}
